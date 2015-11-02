@@ -60,6 +60,9 @@ time_format: HH:mm:ss
 per_page: 10
 pagination_dir: page
 
+# Disqus
+disqus_shortname: cls1991
+
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
