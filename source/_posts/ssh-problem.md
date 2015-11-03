@@ -12,6 +12,7 @@ tags:
 
     测试用例: ping www.baidu.com
 
+<!-- more -->
 测试结果截图展示:
 ![ssh_problem_01](https://github.com/cls1991/MyBlog/raw/master/img/ssh_problem_01.png)
 ![ssh_problem_02](https://github.com/cls1991/MyBlog/raw/master/img/ssh_problem_02.png)
