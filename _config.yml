@@ -63,6 +63,12 @@ pagination_dir: page
 # Disqus
 disqus_shortname: cls1991
 
+# google analytics
+google_analytics:
+  enable: true
+  id: UA-69637312-1
+  site: cls1991.github.io
+
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
