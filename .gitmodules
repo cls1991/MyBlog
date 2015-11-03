@@ -1,0 +1,3 @@
+[submodule "themes/themes/diasy"]
+	path = themes/themes/diasy
+	url = git@github.com:imbyron/hexo-theme-daisy.git
