@@ -14,7 +14,7 @@ tags:
 经常执行python脚本, 碍于防火墙GW, 很多请求都被屏蔽了, 因此, 需要像proxychains这样的神器, 帮助我们透过GW, 获取我们想要的资源. 
 <!-- more  -->
 
-###1. 安装shadowsocks
+1.安装shadowsocks
 这里只介绍shadowsocks在ubuntu上的配置, 至于vps或vpn的搭建, 大家可以移步[版瓦工](https://bandwagonhost.com/), 套餐自己选择. 
 
 	sudo apt-get install shadowsocks     # 安装shadowsocks
@@ -43,7 +43,7 @@ tags:
 	
 	sslocal -c /etc/shadowsocks/config.json
 
-###2. 安装proxychains
+2.安装proxychains
 ubuntu安装proxychains, 这里直接通过软件源安装
 	
 	sudo apt-get install proxychains
