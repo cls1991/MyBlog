@@ -6,6 +6,45 @@ tags:
 - blog
 ---
 
+1.安装hexo
+	
+	npm install hexo-cli -g
+	npm install hexo --save
+
+<!-- more -->
+2.hexo初始化配置
+新建hexo目录, 执行：
+	
+	hexo init
+
+新建完成后, 文件目录如下:
+	
+	.
+	├── _config.yml
+	├── package.json
+	├── scaffolds
+	├── scripts
+	├── source
+	|      ├── _drafts
+	|      └── _posts
+	└── themes
+
+3.安装hexo插件
+	
+	npm install hexo-generator-index --save
+	npm install hexo-generator-archive --save
+	npm install hexo-generator-category --save
+	npm install hexo-generator-tag --save
+	npm install hexo-server --save
+	npm install hexo-deployer-git --save
+	npm install hexo-deployer-heroku --save
+	npm install hexo-deployer-rsync --save
+	npm install hexo-deployer-openshift --save
+	npm install hexo-renderer-marked@0.2 --save
+	npm install hexo-renderer-stylus@0.2 --save
+	npm install hexo-generator-feed@1 --save
+	npm install hexo-generator-sitemap@1 --save
+
 运行hexo服务
 
     hexo server            // 或者hexo s
@@ -34,3 +73,10 @@ tags:
 默认监听端口为4000, 打开浏览器(http://0.0.0.0:4000), 查看效果.
 
 ![hexo_blog.png](https://github.com/cls1991/MyBlog/raw/master/img/hexo_blog.png)
+
+4.hexo简写命令
+	
+	hexo n  	# hexo new: 生成文章
+	hexo s 	# hexo server: 本地发布预览效果
+	hexo g 	# hexo generate: 生成public静态文件
+	hexo d    # hexo deploy: 部署到github
