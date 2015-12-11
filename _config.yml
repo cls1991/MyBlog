@@ -63,6 +63,9 @@ pagination_dir: page
 # Disqus
 disqus_shortname: cls1991
 
+# Duoshuo
+duoshuo_shortname: cls1991
+
 # google analytics
 google_analytics:
   enable: true
