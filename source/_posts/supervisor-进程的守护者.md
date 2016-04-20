@@ -1,5 +1,5 @@
 ---
-title: supervisor--进程的守护者.md
+title: supervisor--进程的守护者
 categories: Linux
 date: 2016-04-20 13:53:34
 tags:
@@ -21,7 +21,7 @@ tags:
     kill -9 xxx								   // 杀死进程
 
 每次都重复着这样的操作, 实在是浪费时间, 当然你也可以针对每一个程序写一份脚本, 一旦服务数量很多, 重复性的劳动就会越来越多. 这时候就需要有一个程序能够统一管理目标服务.
-
+<!-- more -->
 ## 安装supervisor
 ###Ubuntu
 
