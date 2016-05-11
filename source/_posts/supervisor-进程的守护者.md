@@ -156,9 +156,9 @@ tags:
 
 如果配置了web管理接口, 直接访问http://127.0.0.1:9001(默认配置), 用户名和密码默认或者自定义都行:
 
-	;[inet_http_server]         ; inet (TCP) server disabled by default
-    ;port=127.0.0.1:9001        ; (ip_address:port specifier, *:port for all iface)
-    username=cls1991              ; (default is no username (open server))
-    password=asd123               ; (default is no password (open server))
+        [inet_http_server]         ; inet (TCP) server disabled by default
+        port=127.0.0.1:9001        ; (ip_address:port specifier, *:port for all iface)
+        username=cls1991              ; (default is no username (open server))
+        password=asd123               ; (default is no password (open server))
 
-代码更新之后, 可以利用web管理页面重新部署进程, 便利不少. 想更详细了解supervisor的话, 可以访问[supervisor官网](http://supervisord.org/).
+代码更新之后, 可以利用web管理页面重新部署进程, 便利不少. 想更深入了解supervisor, 请访问[supervisor官网](http://supervisord.org/).
