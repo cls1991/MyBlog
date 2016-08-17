@@ -30,7 +30,7 @@ tags:
 
 	gitlab-rake gitlab:backup:create         // 备份整个数据仓库
 
-使用以上命令会在/var/opt/gitlab/backups目录下创建一个名称类似为1393513186_gitlab_backup.tar的压缩包, 这个压缩包就是Gitlab整个的完整部分, 其中开头的1596713186是备份创建的日期.
+使用以上命令会在/var/opt/gitlab/backups目录下创建一个名称类似为1393513186_gitlab_backup.tar的压缩包, 这个压缩包就是gitlab整个的完整部分, 其中开头的1596713186是备份创建的日期.
 
 数据仓库还原:
 	

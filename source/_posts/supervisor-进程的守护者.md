@@ -23,13 +23,8 @@ tags:
 每次都重复着这样的操作, 实在是浪费时间, 当然你也可以针对每一个程序写一份脚本, 一旦服务数量很多, 重复性的劳动就会越来越多. 这时候就需要有一个程序能够统一管理目标服务.
 <!-- more -->
 ## 安装supervisor
-###Ubuntu
 
-	sudo apt-get install supervisor
-
-###Centos
-
-	sudo yum install supervisor
+	pip install supervisor
 
 其他的平台请自行查询安装方法, 手动编译安装亦可, 根据自己的需要选择一种安装途径.
 
@@ -125,7 +120,7 @@ tags:
     ;stderr_logfile_backups=10     ; # of stderr logfile backups (default 10)
     ;stderr_capture_maxbytes=1MB   ; number of bytes in 'capturemode' (default 0)
     ;stderr_events_enabled=false   ; emit events on stderr writes (default false)
-    environment=PYTHONPATH="/home/taozhengkai/.pyenv/versions/env_AntiCheat_2.7.9/bin"       ; process environment additions (def no adds)
+    environment=PATH="/home/taozhengkai/.pyenv/versions/env_AntiCheat_2.7.9/bin"       ; process environment additions (def no adds)
     ;serverurl=AUTO                ; override serverurl computation (childutils)
 
     ; The below sample eventlistener section shows all possible
