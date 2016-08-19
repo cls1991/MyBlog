@@ -26,7 +26,7 @@ tags:
 
 	pip install supervisor
 
-其他的平台请自行查询安装方法, 手动编译安装亦可, 根据自己的需要选择一种安装途径.
+手动编译安装亦可, 根据自己的需要选择一种安装途径.
 
 ## 配置supervisor
 官方提供的样例配置[sample.conf](https://github.com/Supervisor/supervisor/blob/master/supervisor/skel/sample.conf)
