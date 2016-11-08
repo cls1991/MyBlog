@@ -7,18 +7,18 @@ tags:
 ---
 
 1.安装hexo
-	
+
 	npm install hexo-cli -g
 	npm install hexo --save
 
 <!-- more -->
 2.hexo初始化配置
 新建hexo目录, 执行：
-	
+
 	hexo init
 
 新建完成后, 文件目录如下:
-	
+
 	.
 	├── _config.yml
 	├── package.json
@@ -30,7 +30,7 @@ tags:
 	└── themes
 
 3.安装hexo插件
-	
+
 	npm install hexo-generator-index --save
 	npm install hexo-generator-archive --save
 	npm install hexo-generator-category --save
@@ -66,7 +66,15 @@ tags:
     npm install hexo-renderer-stylus --save
     npm install hexo-renderer-marked --save
 
-再运行hexo服务, 
+可能会出现以下错误(补充: 2016-11-08 15:35:19):
+
+	Waiting...Fatal error: watch ENOSPC
+
+更新一下组件即可.
+
+	npm dedupe
+
+再运行hexo服务,
 
     hexo s
 
@@ -75,7 +83,7 @@ tags:
 ![hexo_blog.png](https://github.com/cls1991/MyBlog/raw/master/img/hexo_blog.png)
 
 4.hexo简写命令
-	
+
 	hexo n  	# hexo new: 生成文章
 	hexo s 	# hexo server: 本地发布预览效果
 	hexo g 	# hexo generate: 生成public静态文件
