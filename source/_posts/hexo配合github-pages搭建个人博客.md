@@ -29,22 +29,6 @@ tags:
 	|      └── _posts
 	└── themes
 
-3.安装hexo插件
-
-	npm install hexo-generator-index --save
-	npm install hexo-generator-archive --save
-	npm install hexo-generator-category --save
-	npm install hexo-generator-tag --save
-	npm install hexo-server --save
-	npm install hexo-deployer-git --save
-	npm install hexo-deployer-heroku --save
-	npm install hexo-deployer-rsync --save
-	npm install hexo-deployer-openshift --save
-	npm install hexo-renderer-marked@0.2 --save
-	npm install hexo-renderer-stylus@0.2 --save
-	npm install hexo-generator-feed@1 --save
-	npm install hexo-generator-sitemap@1 --save
-
 运行hexo服务
 
     hexo server            // 或者hexo s
@@ -84,7 +68,8 @@ tags:
 
 4.hexo简写命令
 
-	hexo n  	# hexo new: 生成文章
-	hexo s 	# hexo server: 本地发布预览效果
-	hexo g 	# hexo generate: 生成public静态文件
-	hexo d    # hexo deploy: 部署到github
+	hexo n 	    # hexo new: 生成文章
+	hexo s 	    # hexo server: 本地发布预览效果
+	hexo g 	    # hexo generate: 生成public静态文件
+	hexo d      # hexo deploy: 部署到github
+

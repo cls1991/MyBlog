@@ -13,11 +13,11 @@ tags:
 
 <!-- more -->
 
-添加内容如下:
+添加内容如下(更新[2017-11-24 15:07:23], 豆瓣已支持https):
 	
 	[global]
-	index-url = http://pypi.douban.com/simple
-	trusted-host = pypi.douban.com
+    timeout = 60
+	index-url = https://pypi.douban.com/simple
 
 另外, 使用setup.py安装依赖库, 还是会从默认的http://pypi.python.org下载, 解决方案如下:
 
@@ -25,11 +25,11 @@ tags:
 	
  	vi ~/.pydistutils.cfg
  
- 添加内容如下:
+ 添加内容如下(更新[2017-11-24 15:07:23], 豆瓣已支持https):
  	
  	[easy_install]
-	index_url = http://pypi.douban.com/simple
-	trusted-host = pypi.douban.com
+    timeout = 60
+	index_url = https://pypi.douban.com/simple
 
 之后便可以安装需要的依赖库了.
 
@@ -38,5 +38,4 @@ ps: 下面是国内几个常见的pip源, 大家根据自己的地理位置, 选
 	http://pypi.hustunique.com/ 华中理工大学
 	http://pypi.sdutlinux.org/ 山东理工大学
 	http://pypi.mirrors.ustc.edu.cn/ 中国科学技术大学
-
 
